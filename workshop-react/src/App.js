@@ -1,12 +1,12 @@
 import React, { useState, Fragment } from "react";
 import "./App.css";
-import data from "./mock-data.json";
-import { nanoid } from "nanoid";
-import ReadonlyRow from "./components/ReadonlyRow";
-import EditableRow from "./components/EditableRow";
-import CrudContact from "./components/CrudContact";
+import DataTable from "./workshopComponents/DataTable";
 
 const App = () => {
-  return <CrudContact />;
+  return (
+    <div>
+      <DataTable />
+    </div>
+  );
 };
 export default App;
